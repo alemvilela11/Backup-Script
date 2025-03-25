@@ -1,6 +1,6 @@
 # Paste the files inside WP root directory
 # On MacOS you can create a cron event via 'crontab -e' to execute scripts at certain period of the day.
-# Paste the code below to create the events.
+# Paste the code below to create the events, replacing '/path/to/your/wordpress/' with the actual path to your WP installation.
 
 # Backup at midnight
 # 0 0 * * * php /path/to/your/wordpress/backup.php
